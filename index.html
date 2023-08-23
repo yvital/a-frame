@@ -21,6 +21,14 @@
             <img id="boxTexture_10" src="rabbit/d10.png">
             <img id="boxTexture_11" src="rabbit/d11.png">
             <img id="boxTexture_12" src="rabbit/d12.png">
+            <img id="boxTexture_13" src="rabbit/d13.png">
+            <img id="boxTexture_14" src="rabbit/d14.png">
+            <img id="boxTexture_15" src="rabbit/d15.png">
+            <img id="boxTexture_16" src="rabbit/d16.png">
+            <img id="boxTexture_17" src="rabbit/d17.png">
+            <img id="boxTexture_18" src="rabbit/d18.png">
+            <img id="boxTexture_19" src="rabbit/d19.png">
+            <img id="boxTexture_20" src="rabbit/d20.png">
         </a-assets>
         <a-image position="0 0 -8" transparent="true" src="#boxTexture_0" width="2" height="2" scale="2 2 2">
         </a-image>
@@ -36,7 +44,7 @@
         const myImg = document.querySelector('a-image')
         myImg.setAttribute('src', boxImg);
         index++;
-        if (index > 12) index = 0;
+        if (index > 20) index = 0;
         boxImg = '#boxTexture_' + index.toString();
         //console.log(myImg)
     }
