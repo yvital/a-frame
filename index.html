@@ -7,7 +7,7 @@
 
 <body>
     <a-scene
-        webxr="requiredFeatures: hit-test,local-floor; optionalFeatures: dom-overlay,unbounded; overlayElement: #overlay;">
+        webxr="requiredFeatures: hit-test,local-floor; optionalFeatures: dom-overlay, bounded-floor; overlayElement: #overlay;">
         <a-assets>
             <img id="boxTexture_0" src="rabbit/d0.png">
             <img id="boxTexture_1" src="rabbit/d1.png">
@@ -31,7 +31,7 @@
             <img id="boxTexture_19" src="rabbit/d19.png">
             <img id="boxTexture_20" src="rabbit/d20.png">
         </a-assets>
-        <a-image position="0 0 -8" transparent="true" src="#boxTexture_0" width="2" height="2" scale="2 2 2">
+        <a-image transparent="true" src="#boxTexture_0" width="2" height="2" scale="2 2 2">
         </a-image>
     </a-scene>
 </body>
