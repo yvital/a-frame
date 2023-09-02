@@ -6,7 +6,8 @@
 </head>
 
 <body>
-    <a-scene embedded arjs='sourceType: webcam;'>
+    <a-scene
+        webxr="requiredFeatures: hit-test,local-floor; optionalFeatures: dom-overlay,unbounded; overlayElement: #overlay;">
         <a-assets>
             <img id="boxTexture_0" src="rabbit/d0.png">
             <img id="boxTexture_1" src="rabbit/d1.png">
@@ -32,7 +33,6 @@
         </a-assets>
         <a-image position="0 0 -8" transparent="true" src="#boxTexture_0" width="2" height="2" scale="2 2 2">
         </a-image>
-       
     </a-scene>
 </body>
 
